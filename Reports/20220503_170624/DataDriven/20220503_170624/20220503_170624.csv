@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven,Chrome 100.0.4896.127,,,2022-05-03 17:06:34,2022-05-03 17:12:45,6m - 10.830s,FAILED
+,,,,,,,
+Test Cases/Demo1/DataDrivenTest,Chrome 100.0.4896.127,,,2022-05-03 17:06:34,2022-05-03 17:06:54,19.362s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-03 17:06:35,2022-05-03 17:06:37,2.647s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 100.0.4896.127,,,2022-05-03 17:06:37,2022-05-03 17:06:43,5.932s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 100.0.4896.127,,,2022-05-03 17:06:43,2022-05-03 17:06:44,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 100.0.4896.127,,,2022-05-03 17:06:44,2022-05-03 17:06:45,0.765s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 100.0.4896.127,,,2022-05-03 17:06:45,2022-05-03 17:06:45,0.549s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 100.0.4896.127,,,2022-05-03 17:06:45,2022-05-03 17:06:52,6.555s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome FOAHKUZQtp1pvmg0r""))",Chrome 100.0.4896.127,,,2022-05-03 17:06:52,2022-05-03 17:06:52,0.519s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 100.0.4896.127,,,2022-05-03 17:06:52,2022-05-03 17:06:54,1.457s,PASSED
+,,,,,,,
+Test Cases/Demo1/DataDrivenTest,Chrome 100.0.4896.127,,,2022-05-03 17:11:52,2022-05-03 17:12:45,52.922s,FAILED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-03 17:11:52,2022-05-03 17:11:54,1.932s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 100.0.4896.127,,,2022-05-03 17:11:54,2022-05-03 17:12:01,6.811s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 100.0.4896.127,,,2022-05-03 17:12:01,2022-05-03 17:12:01,0.499s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 100.0.4896.127,,,2022-05-03 17:12:01,2022-05-03 17:12:02,0.662s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 100.0.4896.127,,,2022-05-03 17:12:02,2022-05-03 17:12:02,0.376s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 100.0.4896.127,,,2022-05-03 17:12:02,2022-05-03 17:12:04,1.954s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome FOAHKUZQtp1pvmg0r""))",Chrome 100.0.4896.127,,,2022-05-03 17:12:04,2022-05-03 17:12:36,31.607s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 100.0.4896.127,,,2022-05-03 17:12:36,2022-05-03 17:12:45,9.070s,FAILED

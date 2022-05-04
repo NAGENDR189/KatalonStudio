@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/a_Welcome FOAHKUZQtp1pvmg0r",
+      "brokenLocator": "//a[@id\u003d\u0027welcome\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrangeHRM/a_Welcome FOAHKUZQtp1pvmg0r_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/a_Welcome Samuel",
+      "brokenLocator": "//a[@id\u003d\u0027welcome\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrangeHRM/a_Welcome Samuel_position.png"
+    }
+  ]
+}

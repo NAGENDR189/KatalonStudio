@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Demo1/DataDrivenTesting","testCaseId":"Test Cases/Demo1/DataDrivenTesting","iterationVariableName":"username","bindedValues":{"password":"\u0027admin123\u0027","username":"\u0027Admin\u0027"}}
+{"testCaseName":"Test Cases/Demo1/DataDrivenTesting","testCaseId":"Test Cases/Demo1/DataDrivenTesting","iterationVariableName":"username","bindedValues":{"password":"\u0027admin123\u0027","username":"\u0027Admin123\u0027"}}

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenDemo,Chrome 100.0.4896.127,,,2022-05-03 13:12:05,2022-05-03 13:15:06,3m - 1.494s,FAILED
+,,,,,,,
+Test Cases/Demo1/DataDrivenTest,Chrome 100.0.4896.127,,,2022-05-03 13:12:05,2022-05-03 13:12:22,16.514s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-03 13:12:05,2022-05-03 13:12:07,1.947s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 100.0.4896.127,,,2022-05-03 13:12:07,2022-05-03 13:12:13,5.717s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 100.0.4896.127,,,2022-05-03 13:12:13,2022-05-03 13:12:14,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 100.0.4896.127,,,2022-05-03 13:12:14,2022-05-03 13:12:14,0.658s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), password)",Chrome 100.0.4896.127,,,2022-05-03 13:12:14,2022-05-03 13:12:15,0.429s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 100.0.4896.127,,,2022-05-03 13:12:15,2022-05-03 13:12:20,4.925s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome FOAHKUZQtp1pvmg0r""))",Chrome 100.0.4896.127,,,2022-05-03 13:12:20,2022-05-03 13:12:20,0.566s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 100.0.4896.127,,,2022-05-03 13:12:20,2022-05-03 13:12:22,1.435s,PASSED
+,,,,,,,
+Test Cases/Demo1/DataDrivenTest,Chrome 100.0.4896.127,,,2022-05-03 13:15:03,2022-05-03 13:15:06,3.374s,FAILED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-03 13:15:03,2022-05-03 13:15:05,1.621s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 100.0.4896.127,,,2022-05-03 13:15:05,2022-05-03 13:15:06,1.581s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Username""))",Chrome 100.0.4896.127,,,2022-05-03 13:15:06,2022-05-03 13:15:06,0.163s,FAILED
