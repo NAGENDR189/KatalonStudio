@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDemo for Jenkins,Chrome 100.0.4896.127,,,2022-05-04 17:53:01,2022-05-04 17:53:19,17.622s,PASSED
+,,,,,,,
+Test Cases/Demo1/RecordMode _Demo,Chrome 100.0.4896.127,,,2022-05-04 17:53:02,2022-05-04 17:53:19,17.357s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 17:53:02,2022-05-04 17:53:05,2.526s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 100.0.4896.127,,,2022-05-04 17:53:05,2022-05-04 17:53:09,4.745s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:09,2022-05-04 17:53:10,1.045s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 100.0.4896.127,,,2022-05-04 17:53:10,2022-05-04 17:53:11,0.821s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 100.0.4896.127,,,2022-05-04 17:53:11,2022-05-04 17:53:12,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:12,2022-05-04 17:53:13,0.974s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 100.0.4896.127,,,2022-05-04 17:53:13,2022-05-04 17:53:14,1.225s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:14,2022-05-04 17:53:14,0.375s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:14,2022-05-04 17:53:15,0.393s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:15,2022-05-04 17:53:15,0.436s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_14""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:15,2022-05-04 17:53:16,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment done"")",Chrome 100.0.4896.127,,,2022-05-04 17:53:16,2022-05-04 17:53:16,0.869s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:16,2022-05-04 17:53:17,0.760s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 100.0.4896.127,,,2022-05-04 17:53:17,2022-05-04 17:53:18,0.397s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 100.0.4896.127,,,2022-05-04 17:53:18,2022-05-04 17:53:18,0.703s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-05-04 17:53:18,2022-05-04 17:53:19,0.711s,PASSED

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite,Chrome 100.0.4896.127,,,2022-05-04 11:27:44,2022-05-04 11:28:15,30.850s,FAILED
+,,,,,,,
+Test Cases/Demo1/RecordMode _Demo,Chrome 100.0.4896.127,,,2022-05-04 11:27:44,2022-05-04 11:28:02,17.945s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 11:27:45,2022-05-04 11:27:48,3.663s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 100.0.4896.127,,,2022-05-04 11:27:48,2022-05-04 11:27:52,3.903s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:52,2022-05-04 11:27:53,1.064s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 100.0.4896.127,,,2022-05-04 11:27:53,2022-05-04 11:27:54,0.871s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 100.0.4896.127,,,2022-05-04 11:27:54,2022-05-04 11:27:55,0.563s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:55,2022-05-04 11:27:56,1.135s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 100.0.4896.127,,,2022-05-04 11:27:56,2022-05-04 11:27:57,1.088s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:57,2022-05-04 11:27:57,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Medicaid""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:57,2022-05-04 11:27:58,0.414s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:58,2022-05-04 11:27:58,0.425s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_14""))",Chrome 100.0.4896.127,,,2022-05-04 11:27:58,2022-05-04 11:27:59,0.505s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment done"")",Chrome 100.0.4896.127,,,2022-05-04 11:27:59,2022-05-04 11:28:00,0.851s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 100.0.4896.127,,,2022-05-04 11:28:00,2022-05-04 11:28:00,0.735s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 100.0.4896.127,,,2022-05-04 11:28:00,2022-05-04 11:28:01,0.413s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 100.0.4896.127,,,2022-05-04 11:28:01,2022-05-04 11:28:01,0.727s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-05-04 11:28:01,2022-05-04 11:28:02,0.784s,PASSED
+,,,,,,,
+Test Cases/Demo1/Script mode,Chrome 100.0.4896.127,,,2022-05-04 11:28:02,2022-05-04 11:28:15,12.509s,FAILED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-05-04 11:28:03,2022-05-04 11:28:04,1.831s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 100.0.4896.127,,,2022-05-04 11:28:04,2022-05-04 11:28:11,6.739s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), username)",Chrome 100.0.4896.127,,,2022-05-04 11:28:11,2022-05-04 11:28:12,0.839s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 100.0.4896.127,,,2022-05-04 11:28:12,2022-05-04 11:28:12,0.401s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 100.0.4896.127,,,2022-05-04 11:28:12,2022-05-04 11:28:14,1.770s,PASSED
+"verifyTextPresent(""Welcom"", false)",Chrome 100.0.4896.127,,,2022-05-04 11:28:14,2022-05-04 11:28:15,0.645s,FAILED
