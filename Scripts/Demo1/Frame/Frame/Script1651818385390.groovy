@@ -19,15 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.navigateToUrl('https://www.globalsqa.com/demo-site/frames-and-windows/#iFrame')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyTextPresent('Welcome 12', false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Frames and Window Dummy Testing Site -_484b9f/input_pinterest_s'), 
+    'nagu')
 
 WebUI.closeBrowser()
 

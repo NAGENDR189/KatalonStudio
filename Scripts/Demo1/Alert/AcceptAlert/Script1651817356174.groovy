@@ -19,15 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_JavaScript Alerts'))
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
+WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Click for JS Alert'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
+WebUI.waitForAlert(2)
 
-WebUI.verifyTextPresent('Welcome 12', false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.acceptAlert()
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('You successfully clicked an alert', false)
 
 WebUI.closeBrowser()
 

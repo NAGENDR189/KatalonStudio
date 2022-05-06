@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Desktop Testing</name>
+   <tag></tag>
+   <elementGuidId>8a1903c8-bff8-4521-a7af-0b6cfae88220</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li/ul/div/li[2]/ul/li[4]/a/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>23ac6210-3227-4633-8c74-097cc6ed0e8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title_description_other</value>
+      <webElementGuid>4f0908cc-2a69-4337-9d27-9a1532dd2caa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Desktop Testing</value>
+      <webElementGuid>a4619da9-fc95-4e16-9e1e-3b9eaeaf2dd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hs_cos_wrapper_navigation-primary&quot;)/nav[@class=&quot;navigation-primary&quot;]/ul[@class=&quot;submenu level-1&quot;]/li[@class=&quot;has-submenu menu-item Products&quot;]/ul[@class=&quot;submenu level-2&quot;]/div[@class=&quot;cbg&quot;]/li[@class=&quot;has-submenu menu-item SOLUTIONS&quot;]/ul[@class=&quot;submenu level-3&quot;]/li[@class=&quot;no-submenu menu-item Desktop Testing&quot;]/a[@class=&quot;menu-link&quot;]/div[@class=&quot;item_other&quot;]/div[@class=&quot;description_other&quot;]/div[@class=&quot;title_description_other&quot;]</value>
+      <webElementGuid>0a3e2227-99e4-4776-80bf-c42041a45521</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hs_cos_wrapper_navigation-primary']/nav/ul/li/ul/div/li[2]/ul/li[4]/a/div/div/div</value>
+      <webElementGuid>fc06ab19-a3a4-4f66-ac06-cf6ea05ec89e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test mobile web and iOS/Android apps'])[1]/following::div[3]</value>
+      <webElementGuid>59b7edc7-a15b-46e2-8e87-246a20f41610</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Testing'])[1]/following::div[4]</value>
+      <webElementGuid>41599152-1bd7-4c1d-9105-ea31f4e50cd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A flexible solution for all desktop apps'])[1]/preceding::div[1]</value>
+      <webElementGuid>b231b1e3-3acb-42dd-ae47-de1d5de99746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Integrations'])[1]/preceding::div[2]</value>
+      <webElementGuid>4ce339b2-d321-4d0f-84b4-40f92e6e3edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Desktop Testing']/parent::*</value>
+      <webElementGuid>6450c578-649c-4c0d-a65e-80647fccac99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li[4]/a/div/div/div</value>
+      <webElementGuid>0047dd51-5c58-481c-81e6-b664a8836deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Desktop Testing' or . = 'Desktop Testing')]</value>
+      <webElementGuid>86c4712d-84e6-463e-8e68-794fccc938ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

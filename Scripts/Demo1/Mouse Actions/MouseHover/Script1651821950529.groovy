@@ -19,15 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.navigateToUrl('https://katalon.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/a_Products'))
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
+WebUI.click(findTestObject('Object Repository/Page_Katalon  Simplify Web, API, Mobile, De_2f1b85/div_Desktop Testing'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyTextPresent('Welcome 12', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Desktop Application Testing  All You N_846ed0/h1_Desktop Testing'), 
+    'Desktop Testing')
 

@@ -17,17 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), 'admin123')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyTextPresent('Welcome 12', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
-
+println "\n I am inside the testcase"
